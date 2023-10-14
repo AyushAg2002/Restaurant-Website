@@ -1,0 +1,168 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+
+#navbar{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    position:relative;
+    height:60px;
+}
+
+#logo{
+    margin: 8px 45px;
+}
+
+#logo img{
+    height=56px;
+    margin: -18px -10px;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width:100%;
+    top:0;
+    left:0;
+    z-index: -1;
+    opacity: 1.4;
+}
+
+ #navbar ul{
+    display: flex;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.1rem;
+}
+
+#navbar ul li a{
+    color: white;
+    display:block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color:black;
+    background-color: white;
+    
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:3px 200px;
+    height: 400px;
+    justify-content: center;
+}
+
+#home::before{
+    content: "";
+    background: url('../italian-cuisine-g096df77e8_1920.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 62%;
+    width:100%;
+    top:0;
+    left:0;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+#home h1{
+    color: white;
+    text-align: center;
+}
+
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.0rem;
+}
+
+#services{
+    margin: 80px;
+    display: flex;
+}
+
+#services .box{
+    border: 2px solid brown;
+    padding:34px;
+    margin:-50px 6px;
+    border-radius:23px;
+    background-color: cornsilk;
+    
+}
+
+#services .box img{
+    width:281px;
+    height:160px;
+    display: block;
+    margin: auto;
+    
+    
+}
+
+.h-primary{
+
+    font-size: 3.8rem;
+    padding: 12px;
+
+}
+
+.h-secondary{
+
+    font-size: 2.3rem;
+    padding: 12px;
+
+}
+
+
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color:rgb(47, 255, 61);
+
+}
+
+.center{
+    text-align: center;
+}
+
+#client-section img{
+    width:95vw;
+}
+
+#contactus-section::before{
+    content: "";
+    background: url('../Contact Us-26 Apr.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 62%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+#contactus-section form{
+    Margin:2px 62px;
+}
+
+
+
